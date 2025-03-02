@@ -37,8 +37,7 @@ public class TranscriberController {
 
     @PostMapping
     public ResponseEntity<String> transcribeAudio(
-            @RequestParam("file") MultipartFile file
-    ) {
+            @RequestParam("file") MultipartFile file) {
         double fileSize = file.getSize() / (1024.0 * 1024.0);
         double roundedFileSize = Math.round(fileSize * 1000.0) / 1000.0;
 

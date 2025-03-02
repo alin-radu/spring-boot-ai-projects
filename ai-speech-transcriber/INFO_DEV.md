@@ -24,3 +24,9 @@
 - project: ai-speech-transcriber-frontend
 - github: https://github.com/alin-radu/spa-frontend-apps
 - deploy: -
+
+### IV. NOTES
+
+- https://platform.openai.com/docs/overview
+- https://platform.openai.com/docs/guides/speech-to-text
+- https://docs.spring.io/spring-ai/reference/api/audio/transcriptions/openai-transcriptions.html
