@@ -1,4 +1,4 @@
-package com.dev.ai_speech_transcriber.controllers;
+package com.dev.ai_speech_transcriber.controller;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.ai.openai.OpenAiAudioTranscriptionModel;
